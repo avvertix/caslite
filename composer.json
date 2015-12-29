@@ -9,6 +9,7 @@
     ],
     "homepage": "https://github.com/avvertix/caslite",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Alessio Vertemati",
@@ -33,10 +34,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
     }
 }
