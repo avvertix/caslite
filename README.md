@@ -154,7 +154,7 @@ You will also need to add the configuration to reach the CAS server your applica
     'cas_session_name' => env('CAS_SESSION_NAME', 'CAS_SESSION'),
 ],
 ```
-As you might have notices most of the paramaters refers to an environment variable, so you can customize them for each environment.
+As you might have noticed most of the paramaters refers to an environment variable, so you can customize them for each environment.
 Typically you will only need to include in the `.env` file the following variables (values are only for example)
 
 ```
