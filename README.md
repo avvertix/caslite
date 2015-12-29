@@ -181,7 +181,7 @@ class AuthController extends Controller
     // The Laravel AuthController might contain other methods and traits, please preserve them while editing
 
     /**
-     * Redirect the user to the GitHub authentication page.
+     * Redirect the user to the CAS authentication page.
      *
      * @return Response
      */
@@ -191,7 +191,7 @@ class AuthController extends Controller
     }
 
     /**
-     * Obtain the user information from GitHub.
+     * Obtain the user information from CAS.
      *
      * @return Response
      */
