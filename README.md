@@ -1,5 +1,7 @@
 # Caslite
 
+[![Latest Stable Version](https://poser.pugx.org/avvertix/caslite/v/stable)](https://packagist.org/packages/avvertix/caslite) [![Total Downloads](https://poser.pugx.org/avvertix/caslite/downloads)](https://packagist.org/packages/avvertix/caslite) [![Latest Unstable Version](https://poser.pugx.org/avvertix/caslite/v/unstable)](https://packagist.org/packages/avvertix/caslite) [![License](https://poser.pugx.org/avvertix/caslite/license)](https://packagist.org/packages/avvertix/caslite)
+
 Caslite provides the Central Authentication Service ([CAS](https://www.apereo.org/projects/cas)) authentication to Laravel 5.1 applications.
 
 > Inspired by [Laravel Socialite](https://github.com/laravel/socialite)
@@ -232,11 +234,6 @@ when a user logsout from your application, you have to call `Caslite::logout()` 
 ## Contributing
 
 Please see [contributing](contributing.md) and [conduct](conduct.md) for details.
-
-## Credits
-
-- [:author_name][link-author]
-- [All Contributors][link-contributors]
 
 ## License
 
