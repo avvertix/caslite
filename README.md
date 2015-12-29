@@ -32,7 +32,7 @@ Also, add the Caslite facade to the aliases array in your app configuration file
 'Caslite' => Avvertix\Caslite\Facades\Caslite::class,
 ```
 
-You will also need to add credentials for the OAuth services your application utilizes. These credentials should be placed in your config/services.php configuration file, and should use the key facebook, twitter, linkedin, google, github or bitbucket, depending on the providers your application requires. For example:
+You will also need to add the configuration to reach the CAS server your application utilizes. These configuration parameters should be placed in your `config/services.php` configuration file, and should use the key `cas`. The following code block shows what to add in the configuration parameters:
 
 ```php
 'cas' => [
@@ -154,8 +154,8 @@ You will also need to add credentials for the OAuth services your application ut
     'cas_session_name' => env('CAS_SESSION_NAME', 'CAS_SESSION'),
 ],
 ```
-
-Typically you will only need to include in the `.env` file the following parameters (values are only for example)
+As you might have notices most of the paramaters refers to an environment variable, so you can customize them for each environment.
+Typically you will only need to include in the `.env` file the following variables (values are only for example)
 
 ```
 CAS_HOSTNAME=cas-server-host.com
