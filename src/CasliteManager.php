@@ -79,11 +79,10 @@ class CasliteManager extends Manager implements Contracts\Factory
             $this->initialize();
         }
 
-        // if ($this->auth->check()) {
-        //     $this->auth->logout();
-        // }
-
-        // Session::flush();
+        if(Session::has('cas_user')){
+            Session::forget('cas_user');
+        }
+        
         phpCAS::logout($params);
     }
     
